@@ -1,25 +1,47 @@
-
-html {
-  background-size: 100px 100px;
-  background-position: 0 0, 25px 25px, 50px 50px;
+body {
+  background-color:grey;
   text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+/*   margin-top: 10%; */
+  font-family: Georgia, serif;
 }
 
-/* Background Pattern 
-Taken From https: http://thepatternlibrary.com/ */
-
-body{
-  background-image: url("https://cdn.glitch.global/e74096a8-5a8f-463c-a49b-10b2e3786be1/kale-salad%20(1).jpg?v=1742839260444");
+html{
+  height: 100%;
+  width: 100%;
 }
 
-h1,
-h2 {
-  background-color: black ;
-  color: white;
-  width: 500px;
-  margin: auto;
-  margin-bottom: 5px;
-}
 #myCanvas {
-  border: 1px solid  black;
+  border: 1px solid black;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-bottom: 20px;
+}
+
+.pic{
+  height: 450px;
+  width: 600px;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+h2{
+  color: black;
+/*   font-size: 10px; */
+}
+
+#start{
+  text-align: left;
+}
+
+#end{
+  text-align: right;
 }
