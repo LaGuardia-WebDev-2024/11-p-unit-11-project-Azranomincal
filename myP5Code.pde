@@ -1,18 +1,23 @@
-var snowX = [100, 120, 160, 200];
-var snowY = [50, 70, 40, 20];
-
 setup = function() {
-   size(600, 450); 
-   background(164, 212, 255);
-  
-   textSize(40);
-   for(var i = 0; i < snowX.length; i++){
-     text("❆", snowX[i], snowY[i]);
-   }
-   
-   fill(255,255,255);
-   rect(-10, 300, 610, 150);
+  size(400, 400); 
+  background(255,255,255);
+    
+//array
+var Fruits="kiwi";
+var Fruits=["kiwi","strawberry","pineapple"];
 
-}
+// Fruits[1]
+fill(0,0,40);
+text(Fruits[0],10,30);
+text(Fruits[1],10,80);
+text(Fruits[2],10,100);
+
+var Fruitnum=0;
+
+while(Fruitnum < Fruits.length){text( )}
+;
+while
+};
+
 
 
